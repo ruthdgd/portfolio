@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="portfolio" content="portfolio personal, desarrolladora frontend, habilidades, proyectos, contacto, ada programacion." />
+    <meta name="author" content="Ruth Delgado" />
+    <link rel="shortcut icon" href="./assets/iconos/RDfavicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <h2 class="nav_logo">Ruth D</h2>
+        <input type="checkbox" id="menu" class="checkbtn" />
+        <i class="icons fi fi-br-menu-burger"></i>
+        <i class="icons fi fi-br-cross"></i>
+        <ul class="nav_menu">
+          <li><a href="#Presentacion" class="nav_item">Presentación</a></li>
+          <li><a href="#conocimientos" class="nav_item">Mis Conocimientos</a></li>
+          <li><a href="#proyectos" class="nav_item">Mis Proyectos</a></li>
+          <li><a href="#" class="nav_item">Contacto</a></li>
+        </ul>
+      </nav>
+      <section class="title" id="Presentacion">
+        <div class="title_text">
+          <h2>¡Hola! Soy</h2>
+          <h1>RUTH DELGADO</h1>
+          <h3>Frontend Developer</h3>
+        </div>
+        <picture class="title_img"><img src="./assets/imagenes/perfil.jpg" alt="Ruth Delgado"></picture>
+        <section class="soy">       
+            <h3>Yo soy</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati reiciendis sint deleniti aliquid sunt, nam quo neque commodi id ipsam ad fugiat, eaque repellat reprehenderit cupiditate natus ab ullam possimus?</p>
+          </section>
+      </section>
+    </header>
+    <main class="cuerpo">
+      <section class="conocimientos">
+        <h2 class="c_title" id="conocimientos">Mis Conocimientos</h2>
+        <div class="c_gallery">
+          <img src="./assets/imagenes/HTMLlogo.png" alt="logo html"/>
+          <img src="./assets/imagenes/csslogo.png" alt="logo css"/>
+          <img src="./assets/imagenes/gitlogo.png" alt="logo git"/>
+          <img src="./assets/imagenes/githublogo.png" alt="logo github"/>
+        </div>
+      </section>
+      <section class="proyectos">
+        <h2 id="proyectos">Mis Proyectos</h2>
+        <div class="proyectos_gallery">
+          <a href=" https://ruthdgd.github.io/ruthD-tp1/" target="_blank">
+            <img src="./assets/imagenes/oceanSummer.PNG" alt="Trabajo de medias querys">
+          </a>
+          <a href="https://ruthdgd.github.io/ruth_delgadotp2/" target="_blank">
+            <img src="./assets/imagenes/MortalKombat.PNG" alt="Trabajo mobile first">
+          </a>
+          <a href="https://ruthdgd.github.io/transform/" target="_blank">
+            <img src="./assets/imagenes/transform.PNG" alt="Trabajo Transform">
+          </a>
+        </div>
+      </section>
+      <section class="contacto">        
+        <h2 id="contacto">Contactame</h2>  
+        <div class="contacto_text">      
+          <p class="contacto_text_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, ullam? Non vero labore et quo dolore placeat magni architecto, ratione voluptatibus porro sequi perferendis.</p>
+          <div class="contacto_redes">
+            <div class="red instagram">
+              <img src="./assets/iconos/instagram.png" alt="">
+              <p>ruthdgd</p>
+            </div>
+            <div class="red linkedin">
+              <img src="./assets/iconos/linkedin.png" alt="">
+              <p>linkedin.com/in/ruth-dgd</p>
+            </div>
+            <div class="red email">
+              <img src="./assets/iconos/sobre.png" alt="">
+              <p>rinesdelgo@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        <form class="contacto_form">
+          <h2> Enviame un e-mail</h2>
+          <div class="form form_nombre">
+            <label for="nombre">Nombre:</label>
+            <input type="text" placeholder="Escribe tu nombre" id="nombre">
+          </div>
+          <div class="form form_apellido">
+            <label for="Apellido">Apellido:</label>
+            <input type="text" placeholder="Escribe tu apellido" id="Apellido">
+          </div>
+          <div class="form form_email">
+            <label for="e-mail">e-mail:</label>
+            <input type="email" name="" id="" placeholder="ejemplo@email.com">
+          </div>
+          <div class="form form_telefono">
+            <label for="telefono">Telefono:</label>
+            <input type="text" placeholder="Número de Telefono" id="telefono">
+          </div>
+          <div class="form form_mensaje">
+            <label for="mensaje">Mensaje</label>
+            <textarea name="" id="" cols="30" rows="10">Escribe un mensaje</textarea>
+          </div>
+          <div class="form form_enviar">
+            <input type="submit" value="Enviar">
+          </div> 
+        </form>
+      </section>
+    </main>
+    <footer class="pie">
+        <ul class="pie_menu">
+        <li><a href="#Presentacion" class="nav_item">Presentación</a></li>
+        <li><a href="#conocimientos" class="nav_item">Mis Conocimientos</a></li>
+        <li><a href="#proyectos" class="nav_item">Mis Proyectos</a></li>
+        <li><a href="#" class="nav_item">Contacto</a></li>
+      </ul>
+      <h3 class="pie_creador"> &copy; Creado por RUTH DELGADO</h3>
+    </footer>
+  </body>
+</html>
