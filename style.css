@@ -71,8 +71,6 @@
     top: -11.1rem;
     z-index: -1;
     right: 0px;
-    /* display: none; */
-    transition: 0.5s;
   }
 
   .nav_menu li a {
@@ -355,11 +353,14 @@
 
   .title_text{
     font-size: 2rem;
+    text-align: right;
   }
 
   .title_img{
     width: 50%;
     padding-top: 2rem;
+    display: flex;
+    justify-content: flex-start;
   }
 
   .title_t_i{
@@ -449,18 +450,11 @@
     background-color: #f8816f;
   }
 
-  
-
   .title_img img{
     border-top-left-radius: 50px;
     border-bottom-right-radius: 50px;
   }
-
-  .c_gallery img{
-    border-top-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-  }
-
+  
   .title_text h1{
     font-size: 3rem;
   }
@@ -471,6 +465,11 @@
 
   .soy p{
     font-size: 25px;
+  }
+
+  .c_gallery img{
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
   }
 
   .proyectos_gallery img{
