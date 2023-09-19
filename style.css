@@ -395,15 +395,21 @@
   }
 
   .proyectos_gallery{
+    width: 100%;
     padding-bottom: 2rem;
+    text-align: center;
     display: flex;
     flex-direction: row;
     align-items: center;
-
+    justify-content: space-around;
   }
 
   .proyectos_gallery img{
     width: 12rem;
+  }
+  
+  .proyectos_gallery h4{
+    padding: 0.5rem;
   }
 
   .contacto h2{
